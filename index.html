@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QAF</title>
+    <link rel="icon" href="Images/logo2.svg" style="width: 100%" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="open_page" class="open_page"></section>
+
+    <section id="lang_page" class="lang_page">
+      <div class="container">
+        <div class="content">
+          <div class="logo">
+            <img src="Images/logo2.svg" alt="" />
+            <p>كل ما تحتاج له في مكان واحد</p>
+          </div>
+          <div class="lang-contant">
+            <h2>من فضلك اختار اللغة</h2>
+            <ul>
+              <li id="ar"><a href="#">اللغه العربية</a></li>
+              <li id="en"><a href="#">English</a></li>
+              <li><a href="#">French</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="login_page_ar" class="login_page ar">
+      <div class="container">
+        <div class="content">
+          <div class="top">
+            <h2>تسجيل دخول</h2>
+            <p>اذا لم يكن لديك حساب.<a href="#">أنشئ حسابك الآن</a></p>
+          </div>
+
+          <form action="">
+            <label for="email"><span>*</span>البريد الالكتروني</label>
+            <input type="email" name="" id="email" />
+            <label for="pass"><span>*</span>كلمة المرور</label>
+            <input type="password" name="" id="pass" />
+
+            <a href="#">هل نسيت كلمة السر؟</a>
+            <button class="btn">تسجيل دخول</button>
+          </form>
+
+          <div class="social-icon">
+            <h3>أو سجل دخول من خلال</h3>
+            <ul>
+              <li>
+                <a href="#"
+                  ><i class="fab fa-facebook-f"></i>سجل دخول من خلال فيسبوك
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-google"></i>سجل دخول من خلال جوجل</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fab fa-twitter"></i>سجل دخول من خلال تويتر</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="login_page_en" class="login_page en">
+      <div class="container">
+        <div class="content">
+          <div class="top">
+            <h2>login</h2>
+            <p>If you don't have account<a href="#">Create New Account</a></p>
+          </div>
+
+          <form action="">
+            <label for="email">Email<span>*</span></label>
+            <input type="email" name="" id="email" />
+            <label for="email">Password<span>*</span></label>
+            <input type="password" name="" id="email" />
+
+            <a href="#">Forgot Password</a>
+            <button class="btn">LOGIN</button>
+          </form>
+
+          <div class="social-icon">
+            <h3>Or Login With</h3>
+            <ul>
+              <li>
+                <a href="#"
+                  >Login with facebook<i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#">login with google <i class="fab fa-google"></i></a>
+              </li>
+              <li>
+                <a href="#">login with twitter<i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products_page" class="products_page">
+      <header>
+        <div class="logo">
+          <a href="#"
+            ><h1><span>QAF</span></h1></a
+          >
+        </div>
+        <nav>
+          <ul class="menu">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">CATEGORY</a></li>
+          </ul>
+        </nav>
+        <div class="login">
+          <ul>
+            <li class="shopping_cart_icon">
+              <a href="#" class="shopping_cart"
+                ><i class="fas fa-shopping-cart"></i
+              ></a>
+              <span class="nom_of_products">1</span>
+            </li>
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">REGISTER</a></li>
+            <div class="menu_btn">
+              <i class="fas fa-bars"></i>
+            </div>
+          </ul>
+        </div>
+
+        <ul class="products">
+          <h2 class="no_product" style="text-align: center">No Products</h2>
+        </ul>
+      </header>
+
+      <div class="container">
+        <div class="content">
+          <h1 class="title">our products</h1>
+
+          <div class="product_row"></div>
+          <div class="read_more">
+            <a href="#">READ MORE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
